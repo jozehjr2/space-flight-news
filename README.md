@@ -26,7 +26,8 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 - Bootstrap: https://getbootstrap.com/
 - Bulma: https://bulma.io/
 
-![Wireframe](https://lab.coodesh.com/challenges/frontend/frontend-space-flight-news-20210823/-/raw/main/img/wireframe.png) 
+![Wireframe](https://lab.coodesh.com/challenges/frontend/frontend-challenge-space-flight-news-20210823/-/raw/main/img/wireframe.png) 
+
 
 **Obrigatório 1** - Seguir o wireframe para a página de listagem de artigos;
 
