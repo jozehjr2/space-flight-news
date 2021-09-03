@@ -26,9 +26,13 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 - Bootstrap: https://getbootstrap.com/
 - Bulma: https://bulma.io/
 
-#### Wireframe
+#### Wireframe - listagem de artigos
 
 ![Wireframe](https://lab.coodesh.com/challenges/frontend/frontend-challenge-space-flight-news-20210823/-/raw/main/img/wireframe.png) 
+
+#### Wireframe - modal
+
+![Wireframe](https://lab.coodesh.com/challenges/frontend/frontend-challenge-space-flight-news-20210823/-/raw/main/img/wireframe-modal.png) 
 
 
 #### Cores, fontes e inspiração
@@ -37,17 +41,21 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 
 **Obrigatório 1** - Seguir o wireframe para a página de listagem de artigos;
 
-**Obrigatório 2** - Seguir a paleta de cores e as fontes definidas na imagem acima;
+**Obrigatório 2** - Seguir o wireframe do modal. Esse modal deverá ser aberto com informações dos artigos no momento que o usuário clicar no botão "Ver Mais";
 
-**Obrigatório 3** - Desenvolver a funcionalidade do buscador para que seja possível listar artigos que contenham as palavras no título;
+**Obrigatório 3** - Seguir a paleta de cores e as fontes definidas na imagem acima;
 
-**Obrigatório 4** - Desenvolver a funcionalidade para ordenar os artigos por data, da mais antiga para a mais nova e da mais nova para a mais antiga;
+**Obrigatório 4** - Desenvolver a funcionalidade do buscador para que seja possível listar artigos que contenham as palavras no título;
 
-**Obrigatório 5** - Ao clicar no botão "Carregar mais" deve fazer uma nova requisição para carregar mais 10 artigos na página.
+**Obrigatório 5** - Desenvolver a funcionalidade para ordenar os artigos por data, da mais antiga para a mais nova e da mais nova para a mais antiga;
 
-**Diferencial 1** Escrever Unit Tests ou E2E Test. Escolher a melhor abordagem e biblioteca;
+**Obrigatório 6** - Ao clicar no botão "Carregar mais" deve fazer uma nova requisição para carregar mais 10 artigos na página.
 
-**Diferencial 2** Configurar Docker no Projeto para facilitar o Deploy da equipe de DevOps;
+**Diferencial 1** Utilizar Query Params para permitir que a busca de artigos seja feita pela a URL;
+
+**Diferencial 2** Escrever Unit Tests ou E2E Test. Escolher a melhor abordagem e biblioteca;
+
+**Diferencial 3** Configurar Docker no Projeto para facilitar o Deploy da equipe de DevOps;
 
 ## Readme do Repositório
 
