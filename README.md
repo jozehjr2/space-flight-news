@@ -28,16 +28,16 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 
 #### Wireframe - listagem de artigos
 
-![Wireframe](./-/raw/main/img/wireframe.png) 
+![Wireframe](./-/blob/main/img/wireframe.png) 
 
 #### Wireframe - modal
 
-![Wireframe](./-/raw/main/img/wireframe-modal.png) 
+![Wireframe](./-/blob/main/img/wireframe-modal.png) 
 
 
 #### Cores, fontes e inspiração
 
-![Cores, fontes e inspiração](./-/raw/main/img/font-colors.png)
+![Cores, fontes e inspiração](./-/blob/main/img/font-colors.png)
 
 **Obrigatório 1** - Seguir o wireframe para a página de listagem de artigos;
 
