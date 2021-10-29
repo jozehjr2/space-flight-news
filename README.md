@@ -28,16 +28,16 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 
 #### Wireframe - listagem de artigos
 
-![Wireframe](https://lab.coodesh.com/challenges/frontend/frontend-challenge-space-flight-news-20210823/-/raw/main/img/wireframe.png) 
+![Wireframe](./-/raw/main/img/wireframe.png) 
 
 #### Wireframe - modal
 
-![Wireframe](https://lab.coodesh.com/challenges/frontend/frontend-challenge-space-flight-news-20210823/-/raw/main/img/wireframe-modal.png) 
+![Wireframe](./-/raw/main/img/wireframe-modal.png) 
 
 
 #### Cores, fontes e inspiração
 
-![Cores, fontes e inspiração](https://lab.coodesh.com/challenges/frontend/frontend-challenge-space-flight-news-20210823/-/raw/main/img/font-colors.png)
+![Cores, fontes e inspiração](./-/raw/main/img/font-colors.png)
 
 **Obrigatório 1** - Seguir o wireframe para a página de listagem de artigos;
 
