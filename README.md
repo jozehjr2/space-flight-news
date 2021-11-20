@@ -12,7 +12,7 @@ O projeto a ser desenvolvido por você tem como objetivo exibir os dados dos art
 
 ### Instruções iniciais obrigatórias
 
-- Trabalhar em um [FORK](https://lab.coodesh.com/help/gitlab-basics/fork-project.md) deste repositório em seu usuário ou utilizar um repositório em seu github pessoal (não esqueça de colocar no readme a referência a este challenge);
+- Trabalhar em um repositório em seu usuário ou utilizar o seu github pessoal (não esqueça de colocar no readme a referência a este challenge);
 - O projeto deverá ser desenvolvido com uma das tecnologias a seguir: **React.js | Vue.js | Angular 8+**;
 
 ### Front-End:
@@ -64,7 +64,9 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 - Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
 - Como instalar e usar o projeto (instruções)
 - Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh 
+- Se está usando github pessoal, referencie que é um challenge by coodesh:  
+
+>  This is a challenge by [Coodesh](https://coodesh.com/)
 
 ## Finalização e Instruções para a Apresentação
 
