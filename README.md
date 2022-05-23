@@ -10,9 +10,9 @@ O projeto a ser desenvolvido por você tem como objetivo exibir os dados dos art
 
 [SPOILER] As instruções de entrega e apresentação do challenge estão no final deste Readme (=
 
-### Instruções iniciais obrigatórias
+## Instruções iniciais obrigatórias
 
-- Trabalhar em um repositório em seu usuário ou utilizar o seu github pessoal (não esqueça de colocar no readme a referência a este challenge);
+- Utilizar o seu github pessoal para publicar o desafio. Confirme que a visibilidade do projeto é pública (não esqueça de colocar no readme a referência a este challenge);
 - O projeto deverá ser desenvolvido com uma das tecnologias a seguir: **React.js | Vue.js | Angular 8+**;
 
 ### Front-End:
