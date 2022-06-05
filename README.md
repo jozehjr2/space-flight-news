@@ -51,7 +51,7 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 
 **Obrigatório 6** - Ao clicar no botão "Carregar mais" deve fazer uma nova requisição para carregar mais 10 artigos na página.
 
-**Diferencial 1** Utilizar Query Params para permitir que a busca de artigos seja feita pela a URL;
+**Diferencial 1** Utilizar Query Params para permitir que a URL seja compartilhada com os parâmetros de busca;
 
 **Diferencial 2** Escrever Unit Tests ou E2E Test. Escolher a melhor abordagem e biblioteca;
 
