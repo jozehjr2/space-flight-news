@@ -4,7 +4,7 @@
 
 Este é um desafio para que possamos ver as suas habilidades como Front-end Developer.
 
-Nesse desafio você deverá desenvolver uma aplicação web para consumir as informações da API [Space Flight News](https://api.spaceflightnewsapi.net/v3/documentation), uma API pública com informações relacionadas a voos espaciais. 
+Nesse desafio você deverá desenvolver uma aplicação web para consumir as informações da API [Space Flight News](https://api.spaceflightnewsapi.net/v3/documentation), uma API pública com informações relacionadas a voos espaciais. Caso o link não funcione, [acesse a documentação presente no Github](https://github.com/TheSpaceDevs/spaceflightnewsapi/blob/main/api/article/documentation/3.4.0/article.json).
 
 O projeto a ser desenvolvido por você tem como objetivo exibir os dados dos artigos, com o título, imagem, resumo e data de publicação. Para isso você deve seguir o wireframe que você encontrará logo abaixo. Atente-se, ao desenvolver a aplicação front-end, para conceitos de usabilidade e adeque o wireframe com elementos visuais para os usuários do seu sistema.
 
