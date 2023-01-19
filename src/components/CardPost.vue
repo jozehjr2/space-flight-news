@@ -3,7 +3,7 @@
     <article class="media">
       <div class="media-left" v-if="imgLeft">
         <figure class="image">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+          <img :src="imgSrc" alt="Image">
         </figure>
       </div>
       <div class="media-content">
@@ -59,5 +59,9 @@ export default {
 }
 .see-more:hover {
   filter:grayscale(1.2);
+}
+.image {
+  max-width: 256px;
+  margin: 30% auto;
 }
 </style>
