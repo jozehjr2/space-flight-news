@@ -1,0 +1,63 @@
+<template>
+  <div class="box">
+    <article class="media">
+      <div class="media-left" v-if="imgLeft">
+        <figure class="image">
+          <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <div class="content">
+          <h3>{{ title }}</h3>
+          <p class="dataPost">
+            <small>{{ datePublish }}</small>  <button class="button is-small">Site</button>
+          </p>
+          <p>
+            {{ description }}
+          </p>
+        </div>
+        <button class="button is-info see-more mt-5">Ver mais</button>
+      </div>
+      <div class="media-right"  v-if="!imgLeft">
+        <figure class="image">
+          <img :src="imgSrc" alt="Image">
+        </figure>
+      </div>
+    </article>
+  </div>
+</template>
+<script>
+export default {
+  name: 'CardPost',
+  props: {
+    title: {
+      type: String
+    },
+    datePublish: {
+      type: String
+    },
+    description: {
+      type: String
+    },
+    imgLeft: {
+      type: Boolean
+    },
+    imgSrc: {
+      type: String
+    }
+  }
+}
+</script>
+<style scoped>
+.dataPost {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.see-more {
+  background: #302E53;
+}
+.see-more:hover {
+  filter:grayscale(1.2);
+}
+</style>

@@ -2,18 +2,24 @@
   <div class="container">
     <NavBar />
     <HeaderTitle />
+    <ListPosts />
+    <BottomFooter />
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
 import HeaderTitle from './components/HeaderTitle'
+import ListPosts from './components/ListPosts'
+import BottomFooter from './components/BottomFooter'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    HeaderTitle
+    HeaderTitle,
+    ListPosts,
+    BottomFooter
   }
 }
 </script>
