@@ -11,7 +11,7 @@ O projeto a ser desenvolvido por você tem como objetivo exibir os dados dos art
 [SPOILER] As instruções de entrega e apresentação do challenge estão no final deste Readme (=
 
 ### Antes de começar
- 
+
 - Prepare o projeto para ser disponibilizado no Github, copiando o conteúdo deste repositório para o seu (ou utilize o fork do projeto e aponte para o Github). Confirme que a visibilidade do projeto é pública (não esqueça de colocar no readme a referência a este challenge);
 - O projeto deve utilizar a Linguagem específica na sua Vaga (caso esteja se candidatando). Por exempo: Python, R, Scala e entre outras;
 - Considere como deadline 5 dias a partir do início do desafio. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
@@ -22,6 +22,7 @@ O projeto a ser desenvolvido por você tem como objetivo exibir os dados dos art
 Nessa etapa você deverá desenvolver uma aplicação web para consumir a API que você criou. Você deve limitar o `request` para exibir apenas 10 resultados.
 
 Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alguns:
+
 - Tailwind CSS: https://tailwindcss.com/
 - Material UI: https://material-ui.com/
 - Angular Material: https://material.angular.io/
@@ -30,12 +31,11 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 
 #### Wireframe - listagem de artigos
 
-![Wireframe](./img/wireframe.png) 
+![Wireframe](./img/wireframe.png)
 
 #### Wireframe - modal
 
-![Wireframe](./img/wireframe-modal.png) 
-
+![Wireframe](./img/wireframe-modal.png)
 
 #### Cores, fontes e inspiração
 
@@ -66,9 +66,9 @@ Para o desenvolvimento você pode utilizar algum framework CSS. Recomendamos alg
 - Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
 - Como instalar e usar o projeto (instruções)
 - Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
+- Se está usando github pessoal, referencie que é um challenge by coodesh:
 
->  This is a challenge by [Coodesh](https://coodesh.com/)
+> This is a challenge by [Coodesh](https://coodesh.com/)
 
 ## Finalização e Instruções para a Apresentação
 
@@ -84,7 +84,10 @@ Avisar sobre a finalização e enviar para correção.
 8. Confira a vaga desejada;
 9. Envie e aguarde as instruções para seguir no processo. Sucesso e boa sorte. =)
 
-
 ## Suporte
 
-Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma. 
+Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma.
+
+## Documentação
+
+1. Foi escolhido o Bulma como framework CSS pela facilidade e agilidade, juntamente com os ícones do Ionicons.
