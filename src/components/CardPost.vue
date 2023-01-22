@@ -10,13 +10,26 @@
         <div class="content">
           <h3>{{ title }}</h3>
           <p class="dataPost">
-            <small>{{ datePublish }}</small>  <button class="button is-small">Site</button>
+            <small>{{ datePublish.substr(0,10) }}</small>  <a :href="siteUrl" class="button is-small" target="_blank">Site</a>
           </p>
           <p>
             {{ description }}
           </p>
         </div>
-        <button class="button is-info see-more mt-5">Ver mais</button>
+        <button class="button is-info see-more mt-5" type="button" @click="showModal">
+          Ver mais
+        </button>
+        <modal-more-info
+          v-show="isModalVisible"
+          @close="closeModal"
+          :title="dataModal.title"
+          :datePublish="dataModal.datePublish"
+          :description="dataModal.description"
+          :imgLeft="true"
+          :imgSrc="dataModal.imgSrc"
+          :siteUrl="dataModal.siteUrl"
+        >
+        </modal-more-info>
       </div>
       <div class="media-right"  v-if="!imgLeft">
         <figure class="image">
@@ -24,9 +37,12 @@
         </figure>
       </div>
     </article>
+    
   </div>
 </template>
 <script>
+import ModalMoreInfo from './ModalMoreInfo'
+
 export default {
   name: 'CardPost',
   props: {
@@ -44,6 +60,37 @@ export default {
     },
     imgSrc: {
       type: String
+    },
+    siteUrl: {
+      type: String
+    }
+  },
+  components: {
+    ModalMoreInfo
+  },
+  data() {
+    return {
+      isModalVisible: false,      
+    }
+  },
+  computed: {
+    dataModal() {
+      return {
+        title: this.$props.title,
+        datePublish: this.$props.datePublish,
+        description: this.$props.description,
+        imgSrc: this.$props.imgSrc,
+        siteUrl: this.$props.siteUrl
+      }
+    }
+  },  
+  methods: {
+    showModal() {
+      this.isModalVisible = true;
+      console.log(this.dataModal)
+    },
+    closeModal() {
+      this.isModalVisible = false;
     }
   }
 }
