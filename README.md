@@ -19,5 +19,6 @@
 3. Foi seguido a maioria dos requisitos obrigatórios, como cores, layout, ícones, entre outros.
 4. Com o fim do prazo, ainda faltam ajustes e melhorias a serem feitas.
 5. Vídeo de apresentação da aplicação: https://www.loom.com/embed/c193ba56b83a43848dfc367d18dac9bd
+6. Spaceflight News API Documentation: https://api.spaceflightnewsapi.net/documentation
 
 > This is a challenge by [Coodesh](https://coodesh.com/)
